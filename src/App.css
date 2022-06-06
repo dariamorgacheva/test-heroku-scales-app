@@ -1,4 +1,11 @@
-.container {
+.window {
+  font-family: "DM Sans", sans-serif;
+	background-color: var(--feedback-primary-color);
+  height: 80vh;
+
+}
+
+.container {  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,7 +20,6 @@
   width: 50%;
   background-color: aqua;
   display: block;
-  margin: 20px;
 }
 
 

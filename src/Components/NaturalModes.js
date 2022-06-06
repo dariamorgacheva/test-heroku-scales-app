@@ -20,7 +20,7 @@ export function NaturalModes() {
     //he vants 3 cards, all tourqouise
     // he vants control panel (user can choose from all modes (checkmark) or choose all)
     return (
-      <div className="grid gap-4 grid-cols-1">
+      <div className="window grid gap-4 grid-cols-1">
         <div className="scale-box text"> 
               {root.base} 
         </div>  

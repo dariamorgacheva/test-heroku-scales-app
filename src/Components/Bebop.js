@@ -29,14 +29,12 @@ export function Bebop() {
  
 
   return (
-    
-    <div>
-      <h1>NOW LETS PRACTICE BEBOP SCALES</h1>
-       <div class="container">
+       <div className="window container grid gap-4 grid-cols-1">
+          <h1>NOW LETS PRACTICE BEBOP SCALES</h1>
 
-        <div class="scale-box text" s>
+        <div className="scale-box text">
           <Hoverable intervals={bebop.intervals} scale={bebop.name}/>
-          <button onClick={newOnlyScale} >new scale old everything else!</button>
+          <button onClick={newOnlyScale} >new scale</button>
         </div>
         {/* <div class="scale-box text">   
           {bebop.intervals}  
@@ -55,8 +53,4 @@ export function Bebop() {
          <button class="text" onClick={newBebopScale} >new bebop scale!</button>         
         </div>
       </div> )
-   
-    </div>
-  )
-
 };
