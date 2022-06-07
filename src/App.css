@@ -2,8 +2,8 @@
   font-family: "DM Sans", sans-serif;
 	background-color: var(--feedback-primary-color);
   height: 80vh;
-
 }
+
 
 .container {  
   display: flex;
@@ -22,7 +22,17 @@
   display: block;
 }
 
+@media (max-width: 480px) {
+  .text {
+    font-size: 2em;
+  }
+  .scale-box {
+    width: 100%;
+  }
+}
 
-.text {
-  font-size: 5em;
+@media (min-width: 480px) {
+  .text {
+    font-size: 3em;
+  }
 }
